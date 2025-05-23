@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tienda de tintes May</title>
+  <link rel="stylesheet" href="proyecto final.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+ <section id="tienda">
+    <div class="tabs">
+        <a href="proyecto final.html"><button onclick="mostrarTonos('fantasia')">Inicio</button></a>
+      <a href="rojizos.html"><button onclick="mostrarTonos('rojos')">Rojos</button></a>
+      <a href="rubios.html"><button onclick="mostrarTonos('rubios')">Rubios</button></a>
+     <a href="cafe.html"><button onclick="mostrarTonos('cafes')">Cafés</button></a>
+    
+    </div>
+<style>
+    body{
+font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background-color: #b00dd5;
+  color: #333;
+}
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(220, 115, 181);
+}
+header a:hover{
+    color: rgb(230, 141, 224);
+}
+header{
+    background-color: #af69b5;
+    padding: 20px;
+    text-align: center;
+}
+
+.novedades {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f7f0f6;
+}
+
+.novedades h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  color: #e770dd;
+}
+
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.producto {
+  background: #f37afa;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 250px;
+  transition: transform 0.3s;
+}
+
+.producto:hover {
+  transform: scale(1.05);
+}
+
+.producto img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.producto h3{
+  margin-top: 15px;
+  font-size: 1.3em;
+  color: #000000;
+}
+
+.producto p {
+  font-size: 0.95em;
+  color: #000000;
+}
+
+.precio{
+  display: block;
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: #000000;
+  font-weight: bold
+}
+  </style>
+   <body>
+    <header>
+</header>
+  <section class="novedades">
+    <h2>Tintes Fantasia</h2> 
+        <h1><i>los tintes nuevos que tenemos a la venta son de la mejor calidad</i></h1>
+    <div class="productos">
+      <div class="producto">
+        <img src="fantasia1.jpg" alt="" />
+        <h3>Azul Cielo</h3>
+        <p>Un color que puede recordar a un cielo despejado en un dia soleado</p>
+        <span class="precio">$920.54</span>
+      </div>
+      <div class="producto">
+        <img src="fantasia2.webp" alt="" />
+        <h3>Azul Marino</h3>
+        <p>Un color que puede recordar a un oceano profundo</p>
+        <span class="precio">$780.90</span>
+      </div>
+      <div class="producto">
+        <img src="fantasia3.jpg" alt="" />
+        <h3>Naranja</h3>
+        <p>Un color que recuerda a una puesta de sol o una fruta fresca</p>
+        <span class="precio">$690.90</span>
+      </div>
+      <div class="producto">
+        <img src="fantasia4.jpg" alt="" />
+        <h3>Morado</h3>
+        <p>Un color muy parecido a las uvas o un atardecer en un viñedo</p>
+        <span class="precio">$600.00</span>
+      </div>
+      <div class="producto">
+      <img src="fantasia5.jpg" alt="">
+     <h3>Rosa Suave</h3>
+        <p>es un tono delicado como una flor</p>
+        <span class="precio">$769.00</span>
+      </div>
+  </section>
+   </header>
+   </body>
+</html>
